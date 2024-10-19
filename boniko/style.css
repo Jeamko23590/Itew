@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+/* for landing page */
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: #02542D;
+    text-decoration: none;
+}
+
+.btn-outline-danger{
+    white-space: nowrap; 
+    margin-right: 10px;
+
+}
+
+.landing h1 {
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.landing small {
+    font-size: 45px;
+    color: #02542D;
+    margin-top: 10px;
+}
+
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* for registration and sign in */
+
+.modal-dialog {
+    max-width: 400px;
+    margin: 1.75rem auto;
+    border-radius: 8px;
+}
+
+/* adjust the padding */
+.modal-body {
+    padding: 30px 30px; 
+}
+
+.modal-footer {
+    padding: 10px 20px; 
+}
+
+.modal-footer button {
+    margin-top: -15px; /* Reduce this value to decrease space */
+}
+
+/* sets the contents of the modal to 100% width */
+.modal-body input,
+.modal-body textarea,
+.modal-footer button {
+    width: 100%;
+}
+
+
+/* set the hover, active, and focus button color */
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active {
+    background-color: black !important;
+    border-color: black !important;
+    box-shadow: none !important;
+}
+
+/* adjust the position of the forgot password */
+.forgot-password {
+    margin-top: 15px;
+    margin-right: auto;
+}
+
+/* set the color and text decoration of the forgot password */
+.forgot-password a {
+    color: #1A5319;
+    text-decoration: underline;
+}
+
+/* Removes any top border */
+.modal-footer {
+    border-top: none;
+    padding-top: 0; 
+    margin-bottom: 10px;
+}
